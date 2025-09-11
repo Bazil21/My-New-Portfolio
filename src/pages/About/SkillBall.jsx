@@ -13,19 +13,16 @@ const Skills = () => {
     return b > 0.5 ? a * k : a * -1 * k;
   };
   const skills = [
-    "Python",
+    "NestJS",
+    "PHP",
+    "Laravel",
+    "MySQL",
     "JavaScript",
-    "TypeScript",
-    "Dart",
     "HTML",
     "CSS",
-    "Django",
-    "Flutter",
-    "ReactJs",
     "NextJS",
     "NodeJs",
     "ExpressJS",
-    "ThreeJs",
     "Redux",
   ];
   const g = useRef();

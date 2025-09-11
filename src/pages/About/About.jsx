@@ -49,36 +49,33 @@ export const About = () => {
       <Page header="About">
         <Text>
           <Paragraph>
-            I'm a passionate programmer, who is always looking for new
-            challenges to improve myself, also a team player, who is always
-            ready to learn new things and help others.
-            <br />I was born and raised in Nagpur, India. I love to play guitar
-            and ukulele and in my free time I like to read books, watch movies
-            and play video games.
+            Full Stack Developer | PHP | Node | Nest JS <br /><br/>
+            Harnessing the power of technology to propel businesses to
+            new heights through dynamic and forward-looking web development.
           </Paragraph>
           <Educations>
             <AboutItem
               color={blue}
               active
               data={{
-                title: "D.Y. Patil college of engineering, Pune",
-                p: "Bachelors of Computer Engineering (2019-2023)",
+                title: "CGPA:3.64",
+                p: "Bachelors of Computer Science (2018-2022)",
                 image: dyp,
               }}
             />
             <AboutItem
               color={green}
               data={{
-                title: "M.P. Deo D. Science College, Nagpur",
-                p: "High School (2017-2019)",
+                title: "Grade:B",
+                p: "Intermediate of Computer Science (2016-2018)",
                 image: highschool,
               }}
             />
             <AboutItem
               color={yellow}
               data={{
-                title: "School of Scholars, Nagpur",
-                p: "Secondary Education (2007-2017)",
+                title: "Grade:A+",
+                p: "Matriculation In Science (2011 - 2016)",
                 image: sos,
               }}
             />

@@ -6,11 +6,11 @@ export const ExperienceItem = (props) => {
   return (
     <StyledExperienceItem className="experience-item" color={data.color}>
       <div className="header">
-        <div className="image">
+        {/* <div className="image">
           <div className="wrapper">
             <img src={data.logo} alt="logo" />
           </div>
-        </div>
+        </div> */}
         <div className="text">
           <h2>{data.name}</h2>
           <h3 className="position">{data.title}</h3>
